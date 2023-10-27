@@ -75,7 +75,8 @@
             /* background-color: khaki; */
             text-align: center;
         }
-        input[type=text]:focus, input[type=text]:hover {
+        /* input[type=text]:hover */
+        input[type=text]:focus {
             outline: none;
             border: none;
             width: 200px;
@@ -162,11 +163,14 @@
             align-items: center;
         }
         .tcard:hover{
-            transform: scale(1.02);
+            transform: scale(1.04);
+
         }
 
         .tcard {
             display: list-item; 
+            transition: transform 0.3s;
+
             list-style: none;
             width: 351px;
             background-color: #F8F9FA;
@@ -416,7 +420,7 @@
                                 <h1>1</h1>
                             </div>
                             <div class="div-ayat">
-                                <p>Ayat</p>
+        ht                        <p>Ayat</p>
                                 <h1>7</h1>
                             </div>
                             <div class="div-number">
